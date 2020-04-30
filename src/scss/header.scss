@@ -1,0 +1,20 @@
+$colors: (
+  primary: #241a01,
+  accent: #fcba03 
+);
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: map-get($colors, primary );
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        a {
+            text-decoration: none;
+            color: #ffffff
+        }
+    }
+}
